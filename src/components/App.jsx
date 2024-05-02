@@ -1,9 +1,8 @@
-import Navigation from './Navigation/Navigation'
-import SearchForm from './SearchForm/SearchForm';
+import Navigation from './Navigation/Navigation';
+
 const App = () => {
   return (
     <>
-      <SearchForm />
       <Navigation />
     </>
   );
