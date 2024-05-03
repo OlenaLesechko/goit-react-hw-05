@@ -1,4 +1,4 @@
-import Loader from 'components/Loader/Loader';
+import Loader from '../../components/Loader/Loader';
 import { movieDetails } from '../../movies-api';
 import { Suspense, useEffect, useRef, useState } from 'react';
 import {
@@ -40,7 +40,7 @@ function MovieDetails() {
         <>
         <Link className={css.goBackBtn} to={backLink.current}>
             <FaArrowLeftLong />
-            Go back bro
+            Go back
         </Link>
         {isLoading && <Loader />}
         {error && <div>Something went wrong. Try reload</div>}
