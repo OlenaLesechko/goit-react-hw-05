@@ -1,6 +1,6 @@
-import Loader from 'components/Loader/Loader';
-import MovieList from 'components/MovieList/MovieList';
-import { SearchForm } from 'components/SearchForm/SearchForm';
+import Loader from '../../components/Loader/Loader';
+import MovieList from '../../components/MovieList/MovieList';
+import SearchForm  from '../../components/SearchForm/SearchForm';
 import { searchMovie } from '../../movies-api';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';

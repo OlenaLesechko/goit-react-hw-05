@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { fetchMovie } from '../../movies-api';
-import MovieList from '../../components/MovieList';
+import MovieList from '../../components/MovieList/MovieList';
 import Loader from '../../components/Loader/Loader';
 import css from './HomePage.module.css';
 
