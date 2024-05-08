@@ -1,4 +1,4 @@
-import Loader from 'components/Loader/Loader';
+import Loader from '../Loader/Loader';
 import { movieCredits } from '../../movies-api';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
